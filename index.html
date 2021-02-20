@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thanasis Giannakopoulos</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -12,86 +12,102 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <section id="title">
-            <h1>I am Thanasis, an aspiring junior web developer</h1>
-            <h3>Take a look at my skills and my work</h3>
-            <h5>Contact me @</h5>
-        </section>
+    <div class="whole-site">
+      <div class="container-fluid">
+        <div class="row">
+          <section id="title">
+              <h1>I am Thanasis, an aspiring junior web developer</h1>
+              <h5>Contact me @</h5>
+          </section>
 
-      </div>
+        </div>
 
-      <div class="row">
         <section id="bio">
-          <div class="img">
-            <img src="" alt="just a headshot of mine">
-          </div>
+          <div class="row">
+            <div class="col-sm-2">
+                <img id="headshot" src="headshot.jpg" alt="just a headshot of mine">
+            </div>
 
-          <div class="-identity-short-text">
-            I taught myself to build things for the web. I am looking for an awesome team
-            to keep doing that.
-          </div>
-        </section>
+            <div class="col-sm-9">
+              <div class="-identity-short-text">
+                I taught myself to build things for the web. I am looking for an awesome team
+                to keep doing that!
+              </div>
+            </div>
+
+            <div class="col-sm-1">
+
+            </div>
+
+        </div>
+      </section>
+
+        <div class="row">
+          <section id="formal-education">
+
+              <h4>Formal Education</h4>
+              <ul>
+                <li>High School Diploma</li>
+                <li>Certificate of Proficiency in English by Michigan University</li>
+                <li>Bachelor in physics (ongoing)</li>
+              </ul>
+          </section>
       </div>
 
       <div class="row">
-        <section id="my-skills">
-          <div id="skills-list">
+        <div>
+            <section id="tech-skills">
+              <h4>My tech skills</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CCS3</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>Linux (Ubuntu/Mint as daily drivers and servers)</li>
+                <li>Git/Github</li>
+                <li>Basic networking concepts for IT</li>
+                <li>C++/Fortran/Python scientific toolikit</li>
+              </ul>
+            </div>
 
-            <h4>Formal Education</h4>
-            <ul>
-              <li>High School Diploma</li>
-              <li>Certificate of Proficiency in English by Michigan University</li>
-              <li>Bachelor in physics (ongoing)</li>
-            </ul>
+            <div class="resume">
+              <a href="best_cv_yet.pdf" target="_blank">Here's</a> my resume in PDF format
+            </div>
+          </section>
+        </div>
 
-            <h4>My tech skills</h4>
-            <ul>
-              <li>HTML</li>
-              <li>CCS3</li>
-              <li>Javascript</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>MySQL</li>
-              <li>Linux (Ubuntu/Mint as daily drivers and servers)</li>
-              <li>Git/Github</li>
-              <li>Basic networking concepts for IT</li>
-            </ul>
-          </div>
+        <div class="row">
+          <section id="projects">
+            <h4>My projects</h4>
 
-          <div class="resume">
-            <p>Here's my resume in PDF format</p>
-            <a href="#">Link</a>
-          </div>
-        </section>
-      </div>
+            <div class="projects-flex">
+              <div class="project" id="to-do-app">
+                to do app
+              </div>
 
-      <div class="row">
-        <section id="projects">
-          <div id="to-do-app">
-            to do app
-          </div>
+              <div class="project" id="portfolio">
+                portfolio
+              </div>
 
-          <div id="portfolio">
-            portfolio
-          </div>
+              <div class="project" id="snake-js">
+                snake game
+              </div>
 
-          <div id="snake-js">
-            snake game
-          </div>
+              <div class="project" id="rt-chat-js">
+                chat
+              </div>
 
-          <div id="rt-chat-js">
-            chat
-          </div>
+              <div class="project" id="wordpress-eshop">
+                wordpress eshop
+              </div>
+            </div>
+          </section>
+        </div>
 
-          <div id="wordpress-eshop">
-            wordpress eshop
-          </div>
-        </section>
       </div>
 
     </div>
-
   </body>
 </html>
