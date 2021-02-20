@@ -1,4 +1,57 @@
 body {
-  background-color: blue;
-  color: black;
+  /*background-color: #A89C9C;*/
+  background-image: radial-gradient(white, gray);
+  color: white;
+  font: Optima;
+}
+
+.whole-site {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  /*background-color: #8F4C82;*/
+  background-color: #222;
+  border-radius: 10px;
+}
+
+
+.row {
+  padding: 10px;
+}
+
+
+section {
+  padding: 5px 0px;
+}
+
+section > * {
+  margin: auto;
+}
+
+.projects-flex {
+  display: flex;
+  flex-direction: row;
+}
+.project {
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+#title > h1, #formal-education > h4, #tech-skills > h4, #projects > h4 {
+  padding-bottom: 15px;
+}
+
+#headshot{
+  margin: auto;
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
 }
