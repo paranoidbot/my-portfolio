@@ -62,3 +62,7 @@ section > * {
 a {
   color: white;
 }
+
+.resume {
+  padding: 20px;
+}
